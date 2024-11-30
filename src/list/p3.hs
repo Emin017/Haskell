@@ -3,9 +3,9 @@ module Main where
 main :: IO ()
 main = do
   print "Output the k'th element of a list"
-  print (elementAt [1, 2, 3] 2)
+  print $ elementAt [1, 2, 3] 2
   print "Output the k'th element of a list"
-  print (elementAt "haskell" 5)
+  print $ elementAt "haskell" 5
 
 -- Find the K'th element of a list.
 elementAt :: [a] -> Int -> a
