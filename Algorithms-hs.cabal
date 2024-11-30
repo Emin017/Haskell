@@ -1,0 +1,51 @@
+name:          Algorithms-hs
+version:       0.1.0.0
+synopsis:      99 questions in Haskell
+description:   99 questions in Haskell
+license:       unknown
+author:        Emin
+maintainer:    Emin
+build-type:    Simple
+cabal-version: >=1.10
+
+executable list-p1
+  main-is:          p1.hs
+  build-depends:    base >=4.7 && <5
+  hs-source-dirs:   src/list
+  default-language: Haskell2010
+
+executable list-p2
+  main-is:          p2.hs
+  build-depends:    base >=4.7 && <5
+  hs-source-dirs:   src/list
+  default-language: Haskell2010
+
+executable list-p3
+  main-is:          p3.hs
+  build-depends:    base >=4.7 && <5
+  hs-source-dirs:   src/list
+  default-language: Haskell2010
+
+executable list-p4
+  main-is:          p4.hs
+  build-depends:    base >=4.7 && <5
+  hs-source-dirs:   src/list
+  default-language: Haskell2010
+
+executable list-p5
+  main-is:          p5.hs
+  build-depends:    base >=4.7 && <5
+  hs-source-dirs:   src/list
+  default-language: Haskell2010
+
+executable list-p6
+  main-is:          p6.hs
+  build-depends:    base >=4.7 && <5
+  hs-source-dirs:   src/list
+  default-language: Haskell2010
+
+executable list-p7
+  main-is:          p7.hs
+  build-depends:    base >=4.7 && <5
+  hs-source-dirs:   src/list
+  default-language: Haskell2010
