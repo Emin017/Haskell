@@ -36,6 +36,8 @@
             };
             formatting = treefmtEval.config.build.check self;
           };
+          legacyPackages = import ./default.nix { inherit pkgs; };
+          packages = self.legacyPackages.${system};
           devShells.default = mkShell {
             buildInputs = with haskellPackages; [
               ghc
