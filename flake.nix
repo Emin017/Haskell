@@ -32,6 +32,7 @@
                 nixpkgs-fmt.enable = true;
                 ormolu.enable = true;
                 markdownlint.enable = true;
+                yamlfmt.enable = true;
               };
             };
             formatting = treefmtEval.config.build.check self;

@@ -7,4 +7,5 @@
   programs.ormolu.enable = true;
   programs.nixpkgs-fmt.enable = true;
   programs.cabal-fmt.enable = true;
+  programs.yamlfmt.enable = true;
 }
